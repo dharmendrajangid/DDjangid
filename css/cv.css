@@ -1,0 +1,33 @@
+body {
+  display: block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 70%;
+  margin: auto;
+  box-shadow: 5px 10px 40px rgb(248, 34, 26);
+  color: #777;
+  min-width: 800px;
+  max-width: 960px;
+  line-height: 150%;
+  padding: 64px 64px 16px 64px;
+}
+h4, h5{display: inline;}
+h5 {
+  margin: 0;
+  float: right;
+}
+
+header {}
+
+header aside {
+  float: right;
+  text-align: right;
+}
+.pe {
+  margin-top: 45px;
+}
+
+article section {
+  margin-bottom: 64px;
+}
+
+.pagebreak { page-break-before: always; }
